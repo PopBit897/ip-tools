@@ -25,7 +25,8 @@ Search=input("Search ")
 link="https://github.com/RedAnonymusITA/tools-ip"
 hostname=socket.gethostname()
 ip_addres= socket.gethostbyname(hostname)
-
+scaner='not enabled'
+ip_web='not enabled'
 if Search=="2":
     print("you host name pc is: "+hostname)
     cerca=input("Search ")
@@ -49,7 +50,8 @@ if Search=="5":
 █▄▄▄▄█▀▀▀▄███▄█▄▄█▄▄██▄██▄
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 """)
-
+if Search =='6':
+         print(ip_web)
 if Search =="8":
     print(link)
 
