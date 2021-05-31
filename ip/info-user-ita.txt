@@ -1,0 +1,2 @@
+se in caso non funziona bene (start.bat).
+usa la scorcatoia opencmd.bat per aprire cmd e scrivere :python test.py
