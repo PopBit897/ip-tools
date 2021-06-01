@@ -1,2 +1,3 @@
 @echo off
-test.py
+ip.py
+goto a
