@@ -38,10 +38,15 @@ if Search=="1":
 elif Search=="3":
     print(hostname+" = "+ip_addres)
     Search=input("Search ")
+
 if Search=="4":
     print(scaner)
+    Search=input("Search ")
+
 if Search=="7":
      print(hex(uuid.getnode()))
+     Search=input("Search ")
+     
 if Search=="5":
      print(""" 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -50,8 +55,13 @@ if Search=="5":
 █▄▄▄▄█▀▀▀▄███▄█▄▄█▄▄██▄██▄
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 """)
+     Search=input("Search ") 
+
 if Search =='6':
-         print(ip_web)
+    print(ip_web)
+    Search=input("Search ")
+
 if Search =="8":
     print(link)
+    Search=input("Search ")
 
