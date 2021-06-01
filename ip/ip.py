@@ -20,13 +20,22 @@ scanerip=4
 info=5
 web ip=6
 mac addres=7
-github link=8\n""")
+github link=8
+name web =9
+help=10\n""")
 Search=input("Search ")
 link="https://github.com/RedAnonymusITA/ip-tools"
 hostname=socket.gethostname()
 ip_addres= socket.gethostbyname(hostname)
+#scaner
 scaner='not enabled'
-ip_web='not enabled'
+# ip web
+ip_in=input('web name: ')
+ip_web= socket.gethostbyname(ip_in)
+#name web 
+in_name=input('ip web:')
+name_web=socket.gethostname(in_name)
+#code if and elif 
 if Search=="2":
     print("you host name pc is: "+hostname)
     cerca=input("Search ")
@@ -58,10 +67,17 @@ if Search=="5":
      Search=input("Search ") 
 
 if Search =='6':
-    print(ip_web)
+    ip_in
+    print('web ip is:'+ip_web)
     Search=input("Search ")
 
 if Search =="8":
     print(link)
     Search=input("Search ")
+
+if Search =='9':
+    in_name
+    print('ip web is:'+name_web)
+    Search
+
 
