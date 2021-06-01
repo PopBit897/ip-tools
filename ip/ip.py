@@ -13,71 +13,60 @@ print("""
 
              """)
 print("****************************************************************\n")
-print("""my ip=1
-my hostname=2
-my  ip and hostname=3
+print("""ip del pc=1
+hostname del pc=2
+ ip e hostname del pc=3
 scanerip=4
 info=5
-web ip=6
+ip dei siti web=6
 mac addres=7
-github link=8
-name web =9
-help=10\n""")
-Search=input("Search ")
+github link=8\n""")
+Search=input("cerca ")
 link="https://github.com/RedAnonymusITA/ip-tools"
 hostname=socket.gethostname()
 ip_addres= socket.gethostbyname(hostname)
 #scaner
-scaner='not enabled'
-# ip web
-ip_in=input('web name: ')
-ip_web= socket.gethostbyname(ip_in)
-#name web 
-in_name=input('ip web:')
-name_web=socket.gethostname(in_name)
+scaner='non abilitato'
+
 #code if and elif 
 if Search=="2":
-    print("you host name pc is: "+hostname)
-    cerca=input("Search ")
+    print("hostname del pc: "+hostname)
+    cerca=input("cerca ")
     
 if Search=="1":
-    print("you ip pc: "+ip_addres)
-    cerca=input("Search ")
+    print("ip del pc: "+ip_addres)
+    cerca=input("cerca ")
     
 elif Search=="3":
     print(hostname+" = "+ip_addres)
-    Search=input("Search ")
+    Search=input("carca ")
 
 if Search=="4":
     print(scaner)
-    Search=input("Search ")
+    Search=input("cerca ")
 
 if Search=="7":
      print(hex(uuid.getnode()))
-     Search=input("Search ")
+     Search=input("cerca ")
      
 if Search=="5":
-     print(""" 
+     print("""
+     puoi scegliere una volta e poi devi riaprire la pagina .
+     fatto :
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 █░▄▄▀█░██░███░▄▄▀█░▄▀█░▄▄▀
 █░▄▄▀█░▀▀░███░▀▀▄█░█░█░▀▀░
 █▄▄▄▄█▀▀▀▄███▄█▄▄█▄▄██▄██▄
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 """)
-     Search=input("Search ") 
+     Search=input("cerca ") 
 
 if Search =='6':
-    ip_in
-    print('web ip is:'+ip_web)
-    Search=input("Search ")
+    import ip_web
+    
+
 
 if Search =="8":
     print(link)
-    Search=input("Search ")
-
-if Search =='9':
-    in_name
-    print('ip web is:'+name_web)
-    Search
-
+    Search=input("cerca ")
 
