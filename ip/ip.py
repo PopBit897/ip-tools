@@ -12,13 +12,13 @@ while True:
              """)
     print("****************************************************************\n")
     print("""ip del pc=1
-     hostname del pc=2
-     ip e hostname del pc=3
-     scanerip=4
-     info=5
-     ip dei siti web=6
-     mac addres=7
-     github link=8\n""")
+hostname del pc=2
+ip e hostname del pc=3
+scanerip=4
+info=5
+ip dei siti web=6
+mac addres=7
+github link=8\n""")
     Search=input("cerca ")
     link="https://github.com/RedAnonymusITA/ip-tools"
     hostname=socket.gethostname()
