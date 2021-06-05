@@ -21,7 +21,7 @@ github link = 8\n""")
 while True:
     import socket
     import uuid
-    Search=input("cerca ")
+    Search=input("Search ")
     link="https://github.com/RedAnonymusITA/ip-tools"
     hostname=socket.gethostname()
     ip_addres= socket.gethostbyname(hostname)
