@@ -3,7 +3,7 @@ while True:
     import socket
     Search=input("site name:  ")
     ip= socket.gethostbyname(Search)
-    print("here is the ip"+ip)
+    print("here is the ip "+ip)
    
  
 
