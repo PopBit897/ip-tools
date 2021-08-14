@@ -1,2 +1,0 @@
-se in caso non funziona bene (start.bat).
-usa la scorciatoia opencmd.bat per aprire cmd e scrivere :python ip.py
