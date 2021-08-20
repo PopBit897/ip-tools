@@ -31,7 +31,7 @@ if login =='ita':
        import socket
        import uuid
        Search=input("cerca ")
-       link="https://github.com/RedAnonymusITA/ip-tools/releases/tag/v0.0.1"
+       link="https://github.com/RedAnonymusITA/ip_tools_GUI"
        hostname=socket.gethostname()
        ip_addres= socket.gethostbyname(hostname)
             #scaner
@@ -124,7 +124,7 @@ if login =='en':
        import socket
        import uuid
        Search=input("Search ")
-       link="https://github.com/RedAnonymusITA/ip-tools/releases/tag/v0.0.1"
+       link="https://github.com/RedAnonymusITA/ip_tools_GUI"
        hostname=socket.gethostname()
        ip_addres= socket.gethostbyname(hostname)
             #scaner
