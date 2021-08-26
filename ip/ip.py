@@ -84,7 +84,7 @@ if login =='ita':
           |  _ \ \_. |      | '_|/ _` |/ _` |
           |____/ |__/       |_|  \__/_|\__/_|
           
-          piu app: ip_tools/GUI ALPHA V0.0.1
+          piu app: ip_tools/GUI ALPHA V0.1.1
           scrivi il numero 8 per aprire il mio repository o premi invia per continuare
           """)
            
@@ -175,7 +175,7 @@ if login =='en':
           |  _ \ \_. |      | '_|/ _` |/ _` |
           |____/ |__/       |_|  \__/_|\__/_|
           
-          more app : ip_tools/GUI ALPHA V0.0.1
+          more app : ip_tools/GUI ALPHA V0.1.1
           write the number 8 if you want to open my repository or press submit to continue""")
            
            Search1 =input("write ")
