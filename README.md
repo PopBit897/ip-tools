@@ -19,3 +19,7 @@
  cod python by:RDA
  
  license: GNU 3 ( GENERAL PUBLIC LICENSE).
+ 
+ automatic install ip-tools_v0.1.1 :
+ 
+    
