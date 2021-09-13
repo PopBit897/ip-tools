@@ -21,6 +21,7 @@
  license: GNU 3 ( GENERAL PUBLIC LICENSE).
  
  automatic install ip-tools_v0.1.1 :
-  git clone https://github.com/RedAnonymusITA/auto_install-GUI.git
+    
+    git clone https://github.com/RedAnonymusITA/auto_install-GUI.git
  
     
