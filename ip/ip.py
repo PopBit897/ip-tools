@@ -85,7 +85,12 @@ if login =='ita':
           |____/ |__/       |_|  \__/_|\__/_|
           
           altri : ip_tools/GUI ALPHA V0.0.1 
+          ascii art per python e terminale da : textfancy.com (non sponsorizzato)
+          autore : RedAnonymusITA(RDA)
+          open source software 
+          licenza GNU GPLv3
           scrivi il numero 8 per aprire il mio repository o premi invia per continuare
+          
           """)
            
            Search1 =input("scrivi ")
@@ -176,6 +181,10 @@ if login =='en':
           |____/ |__/       |_|  \__/_|\__/_|
           
           other : ip_tools/GUI ALPHA V0.0.1
+          ascii art for python and shell by : textfancy.com (not Sponsored )
+          author: RedAnonymusITA(RDA)
+          open source software 
+          GNU GPLv3 license
           write the number 8 if you want to open my repository or press submit to continue""")
            
            Search1 =input("write ")
