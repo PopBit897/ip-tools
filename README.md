@@ -4,9 +4,9 @@
   
   nome app python: ip-tools.
   
-  nome completa : RDA-ip-tools.
+  nome completa : PopBit-ip-tools.
   
-  cod python creato da: RDA.
+  cod python creato da: PopBit.
  
  license: GNU 3 ( GENERAL PUBLIC LICENSE).
                                                          
@@ -14,9 +14,9 @@
  
  name app python:ip-tools
  
- complit name is:RDA-ip-tools
+ complit name is:PopBit-ip-tools
  
- cod python by:RDA
+ cod python by:PopBit
  
  license: GNU 3 ( GENERAL PUBLIC LICENSE).
  
